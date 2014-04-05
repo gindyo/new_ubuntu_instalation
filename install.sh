@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo 'What version of ruby would you like (example: 2.0.0)?:'
 read ruby
 echo 'What version of nodejs would you like (example: 0.10.2)?:'
