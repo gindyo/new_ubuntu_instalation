@@ -10,7 +10,8 @@ bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-i
 rvm install $ruby  
 rvm use $ruby --default   
 gem update --system   
-gem install bundler  
+gem install bundler 
+gem install rails
 
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh   
 wget http://nodejs.org/dist/v$node/node-v$node.tar.gz  
